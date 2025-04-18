@@ -1,6 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { HttpService } from "@nestjs/axios";
 import { firstValueFrom } from "rxjs";
+import { Cache } from "cache-manager";
 import { Cat } from "./entities/cat.entity";
 
 @Injectable()
