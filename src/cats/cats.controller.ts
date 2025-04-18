@@ -22,9 +22,4 @@ export class CatsController {
   findOne(@Param("id") id: string) {
     return this.catsService.findOne(id);
   }
-
-  // @Get("/:tag")
-  // findByTag(@Param("tag") tag: string) {
-  // return this.catsService.findByTag(tag);
-  // }
 }
